@@ -1,4 +1,4 @@
-# Rentzone on AWS — GitHub Actions, Terraform, ECS Fargate
+<h1 align="center">Rentzone on AWS — GitHub Actions, Terraform, ECS Fargate</h1>
 
 <p align="center">
   <img src="docs/evidence/aws-main-logo-2025-orange-arrow-icon-1.png" alt="AWS" width="160">
