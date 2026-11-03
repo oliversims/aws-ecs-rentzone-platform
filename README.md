@@ -1,5 +1,8 @@
 <h1 align="center">Rentzone on AWS — GitHub Actions, Terraform, ECS Fargate</h1>
 
+> [!IMPORTANT]
+> This repository is the write-up and the screenshots. The Terraform, the Laravel application, and the workflows stay in a private repository.
+
 <p align="center">
   <img src="docs/evidence/aws-main-logo-2025-orange-arrow-icon-1.png" alt="AWS" width="160">
 </p>
@@ -7,8 +10,6 @@
 A vehicle-rental application on AWS. Terraform builds a two-AZ VPC. ECS Fargate runs behind an Application Load Balancer. Two GitHub Actions workflows gate delivery. TLS terminates on the load balancer. The tasks and RDS MySQL have no public address. Users reach the application only through the load balancer.
 
 Infrastructure is applied locally. GitHub Actions never plans or applies Terraform. The pipeline reads remote state, builds and scans the image, runs Flyway when SQL changes, and rolls the Fargate service.
-
-This repository is the write-up and the screenshots. The Terraform, the Laravel application, and the workflows stay in a private repository.
 
 <p align="center">
   <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-us--east--1-232F3E?logo=amazonwebservices&logoColor=white" alt="AWS us-east-1" height="80"></a>
